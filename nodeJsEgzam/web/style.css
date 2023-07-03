@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(242, 238, 234)
+}
+header {
+   text-align: center;
+   margin-top: 6.25rem;
+}
+h2 {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+main {
+display: flex;
+justify-content: center;
+}
+.register-card {
+    background-color: rgb(220, 219, 219);
+    margin-top: 6.25rem;
+    padding-left: 2.5rem;
+    border-radius: 1rem;
+}
+.form {    
+    justify-content: center;
+    height: 22rem;
+    width: 20rem;       
+    font-size: 1rem;
+}
+input {
+    width: 17rem;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    width: 10rem;
+    border-radius: .3rem;
+}
+a {
+   text-decoration: none;
+   color: black;
+   font-weight:bold;
+}
+
+.container_groups {
+    display: flex;
+    justify-content: center;  
+}
+.add_group, .add_bill {
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    margin: 0 auto;
+    padding-left: 1.875rem;
+    padding-bottom: 1.25rem;
+    margin-top: 5rem;
+    font-weight: bold;
+    border: .0625rem solid grey;
+    border-radius: .3125rem;
+    background-color: rgb(220, 219, 219);
+    }
+#groups {
+    display: flex;    
+    gap: 2rem;
+}
+
+.group-card {
+    border: .0625rem solid grey;
+    border-radius: .3125rem;
+    width: 7rem;
+    text-align: center;
+    background-color: rgb(220, 219, 219);
+
+}
+.bills-header {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-between;
+   width: 31.25rem;
+   margin: 0 auto;
+   padding: 5px;
+   background-color: rgb(220, 219, 219);
+   border: .0625rem solid grey;
+   }
+   .bill-card {
+    font-size: 1rem;
+    display: flex;
+    justify-content:space-between;
+   width: 31.25rem;
+   margin: 0 auto;
+   padding: .3125rem;
+   background-color: rgb(220, 219, 219);
+   border: .0625rem solid grey;
+   }

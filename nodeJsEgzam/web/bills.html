@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./bills.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Split Bilss</h1>
+    </header>
+    <h2>Group's bills:</h2>
+    <section class="container_bills">
+      <div class="bills-header">
+        <span>ID</span>
+        <span>Description</span>
+        <span>Amount</span>
+      </div>
+      <div id="bills"></div>
+    </section>
+    <form class="add_bill">
+      <h3>Add bill</h3>
+      <div>
+        <label for="bill">Amount:</label>
+      </div>
+      <div>
+        <input type="number" name="bill_amount" id="bill_amount" required />
+      </div>
+      <br />
+      <div>
+        <label for="bill">Description:</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="bill_description"
+          id="bill_description"
+          required
+        />
+      </div>
+      <br />
+      <button type="submit" id="bill_btn">Add</button>
+    </form>
+  </body>
+</html>
